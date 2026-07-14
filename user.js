@@ -1,5 +1,5 @@
 async function getData(){
-    let res=await fetch("http://localhost:3000/student")
+    let res=await fetch("https://student-crud-9h6y.onrender.com/student")
     let data=await res.json();
     showData(data)
 }

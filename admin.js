@@ -1,5 +1,5 @@
 async function getData(){
-    let res= await fetch("http://localhost:3000/student");
+    let res= await fetch("https://student-crud-9h6y.onrender.com/student");
     let data=await res.json()
     showData(data)
 }
@@ -34,7 +34,7 @@ data.forEach(student => {
 }
 
 async function deleteData(id){
-    let res=await fetch(`http://localhost:3000/student/${id}`,{"method":"DELETE"})
+    let res=await fetch(`https://student-crud-9h6y.onrender.com/student/${id}`,{"method":"DELETE"})
     try{
         if(!res.ok){
             throw new Error("Data Not Deleted")
@@ -50,7 +50,7 @@ async function editData(id){
     let studentName=document.getElementById("name")
     let image=document.getElementById("image")
 
-    let res=await fetch(`http://localhost:3000/student/${id}`)
+    let res=await fetch(`https://student-crud-9h6y.onrender.com/student/${id}`)
     try{
         if(!res.ok){
             throw new Error("Data not Getting")
@@ -80,7 +80,7 @@ async function saveData(){
 
     let studentMethod=studentId?"PUT":"POST"
 
-    const Url=studentId?`http://localhost:3000/student/${studentId}`:"http://localhost:3000/student"
+    const Url=studentId?`https://student-crud-9h6y.onrender.com/student/${studentId}`:"https://student-crud-9h6y.onrender.com/student"
     let res=await fetch(Url,{
         "method":studentMethod,
         "headers":{
