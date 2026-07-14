@@ -4,7 +4,7 @@
   "description": "Student CRUD Application",
   "main": "index.js",
   "scripts": {
-"start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+"start": "npx json-server --watch db.json --host 0.0.0.0 --port $PORT"
 },
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
