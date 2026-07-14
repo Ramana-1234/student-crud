@@ -1,0 +1,12 @@
+{
+  "name": "student-crud",
+  "version": "1.0.0",
+  "description": "Student CRUD Application",
+  "main": "index.js",
+  "scripts": {
+  "start": "json-server --watch db.json --host 0.0.0.0 --port 3000"
+},
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

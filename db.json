@@ -1,0 +1,35 @@
+{
+  "student": [
+    {
+      "name": "Singam Sandeep",
+      "image": "https://i.ibb.co/0RccdMhf/singam-Sandeep.jpg",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Abhisek",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt9jLwjpDQQ49Rz3r3j_BYm9WCAILYAlKj5YJ9OOyC-bD3m0G4IF94dPXf&s=10"
+    },
+    {
+      "name": "Mahendra",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDpZmR3BvJYT4JDYFTYxxjdedObZYJzKqZf_uVTgXqmQ&s=10",
+      "id": "efe4"
+    },
+    {
+      "name": "Ramana",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlO_rGA7o8e9D-ZZxJsXI_dBHvhqjbaRo0yDxQys4nIQ&s=10",
+      "id": "kTH-xVxtmxU"
+    },
+    {
+      "name": "Narendra",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_ZB2BN-vh4zbwesU_PLpLx3BQ1AoPdVGFDY8GRFrD0g&s=10",
+      "id": "ymBNBAUWVT8"
+    },
+    {
+      "name": "Ram",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVYRiJ6QBasKMFkZ_AWBNaF6dkOoBqKSdTYjgr3dYbMQ&s=10",
+      "id": "iluocWpQ8DE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
